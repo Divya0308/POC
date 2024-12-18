@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="methods" name="CucumberParallel(failed)">
+    <classes>
+      <class name="com.cucumberrunner.Runner$TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cucumberrunner.Runner$TestRunner -->
+    </classes>
+  </test> <!-- CucumberParallel(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
